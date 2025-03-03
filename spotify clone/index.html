@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="input">
+                <span class="logo">
+                    <i class="fa-brands fa-spotify"></i>
+                </span>
+                <div class="home"><i class="fa-solid fa-house"></i></div>
+                
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="hide3" type="text" placeholder="what do you want to play?">
+                    <i  class="fa-solid fa-grip-lines-vertical hide3"></i>
+                    <i class="fa-regular fa-window-restore hide3"></i>
+                </div>
+            </div>
+            <div class="nav">
+            <div class="options1 hide4">
+                <p>Premium</p>
+                <p>Support</p>
+                <p>Download</p>
+                <i class="fa-solid fa-grip-lines-vertical"></i>
+            </div>
+            
+            <div class="options2 ">
+                 <p>
+                
+                   <i class="fa-regular fa-circle-down align-middle" style="vertical-align: middle;"></i>
+                    Install App
+                   
+                </p>
+                <p>Sign up</p>
+                
+                   <button>Log in</button> 
+
+               
+            </div>
+          
+        </div>  
+        </div>
+    </header>
+    <main>
+     
+        <div class="sidebar">
+            <div class="lib-content">
+            <div class="lib">
+                <div class="your-lib">
+                   <img src="./assets/library_icon.png" alt="img">
+                   <p>Your Library</p>
+                </div>
+                <span><i class="fa-solid fa-plus"></i></span>
+            
+            </div>
+            <div class="lib-box">
+                <div class="text-1">
+                   <p> Create Your first playlist</p>
+                </div>    
+                <div class="text-2">
+                    <p>It's easy,we'll help you</p>
+                </div>
+                <button>Create playlist</button>
+            </div>
+            <div class="lib-box">
+                <div class="text-1">
+                   <p> Let's find some podcasts to follow</p>
+                </div>    
+                <div class="text-2">
+                    <p>We'll keep you updated on new episodes</p>
+                </div>
+                <button>Browse podcasts</button>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info">
+                    <div><a href="#">Legal</a></div>
+                    <div><a href="#">Safety & Privacy Centre</a></div>
+                    <div><a href="#">Privacy Policy</a></div>
+                    <div><a href="#">Cookies</a></div>
+                    <div><a href="#">About Ads</a></div>
+                    <div><a href="#">Accessibility</a></div>
+            </div>
+            <div class="cookies">
+                <a href="#">Cookies</a>
+            </div>
+
+           
+            <div class="lang">
+               <button>
+                <i class="fa-solid fa-globe"></i>
+                English</button>
+            </div>
+        </div>
+
+        </div>
+    
+        <div class="main-content">
+            <div class="section-1">
+                <div class="heading">
+                    <h2><a href="#">Popular artists</a></h2>
+                    <div class="show"><a href="#">Show all</a></div>
+                </div>
+                <div class="artists">
+                    <div class="artist1">
+                        <div class="artist-img">
+                            <img src="./your/pritam.jpeg" alt="" id="circle">
+                            <div class="play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="artist-name"> 
+                            <a href="#">Pritam</a>
+                            <p>Artist</p>
+                        </div>
+                </div>
+                <div class="artist1">
+                    <div class="artist-img">
+                        <img src="./your/arijit.jpg" alt="" id="circle">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="artist-name"> 
+                        <a href="#">Arijit Singh</a>
+                        <p>Artist</p>
+                    </div>
+            </div>
+            <div class="artist1">
+                <div class="artist-img">
+                    <img src="./your/sachin-jigar.jpg" alt="" id="circle">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="artist-name"> 
+                    <a href="#">Sachin-Jigar</a>
+                    <p>Artist</p>
+                </div>
+        </div>
+        <div class="artist1 hide3">
+            <div class="artist-img">
+                <img src="./your/AR.jpg" alt="" id="circle">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="artist-name"> 
+                <a href="#">A.R.Rahman</a>
+                <p>Artist</p>
+            </div>
+    </div>
+    <div class="artist1 hide2">
+        <div class="artist-img">
+            <img src="./your/Vishal shekhar.jpg" alt="" id="circle">
+            <div class="play">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="artist-name"> 
+            <a href="#">Vishal-Shekhar</a>
+            <p>Artist</p>
+        </div>
+</div>
+<div class="artist1 hide1">
+    <div class="artist-img">
+        <img src="./your/Atif aslam.jpeg" alt="" id="circle">
+        <div class="play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+    </div>
+    <div class="artist-name"> 
+        <a href="#">Atif Aslam</a>
+        <p>Artist</p>
+    </div>
+</div>
+            </div>
+        </div>
+
+        <!-- section  -->
+
+
+        <div class="section-1">
+            <div class="heading">
+                <h2><a href="#">Popular albums and singles</a></h2>
+                <div class="show"><a href="#">Show all</a></div>
+            </div>
+            <div class="artists">
+                <div class="artist1">
+                    <div class="artist-img ">
+                        <img src="./your/yoyo.jpg" alt="" >
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="artist-name"> 
+                        <a href="#">Glory</a>
+                        <p>Yo Yo Honey Singh</p>
+                    </div>
+            </div>
+            <div class="artist1">
+                <div class="artist-img">
+                    <img src="./your/aashiq2.jpg" alt="">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="artist-name"> 
+                    <a href="#">Aashiqui 2</a>
+                    <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                </div>
+        </div>
+        <div class="artist1">
+            <div class="artist-img">
+                <img src="./your/yehjawani.jpg" alt="">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="artist-name"> 
+                <a href="#">Yeh Jawaani Hai
+                    Deewani</a>
+                <p>Pritam</p>
+            </div>
+    </div>
+    <div class="artist1 hide3">
+        <div class="artist-img">
+            <img src="./your/muse.jpg" alt="">
+            <div class="play">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="artist-name"> 
+            <a href="#">Who(Remixes)</a>
+            <p>Jimin</p>
+        </div>
+</div>
+<div class="artist1 hide2">
+    <div class="artist-img">
+        <img src="./your/karanajula.jpeg" alt="">
+        <div class="play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+    </div>
+    <div class="artist-name"> 
+        <a href="#">Making Memories</a>
+        <p>Karan Aujla, Ikky</p>
+    </div>
+</div>
+<div class="artist1 hide1">
+<div class="artist-img">
+    <img src="./your/mismatched.jpeg" alt="">
+    <div class="play">
+        <i class="fa-solid fa-play"></i>
+    </div>
+</div>
+<div class="artist-name "> 
+    <a href="#">Mismatched: Season
+        3...</a>
+    <p>Mismatched - Cast</p>
+</div>
+</div>
+        </div>
+    </div>
+
+      <!-- section  -->
+
+
+    <div class="section-1">
+        <div class="heading">
+            <h2><a href="#">Popular radio</a></h2>
+            <div class="show"><a href="#">Show all</a></div>
+        </div>
+        <div class="artists">
+            <div class="artist1">
+                <div class="artist-img">
+                    <img src="./your/r1.jpeg" alt="">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="artist-name"> 
+                    <p>With Atif Aslam,
+                        Sachin-Jigar, Vishal-...</p>
+                </div>
+        </div>
+        <div class="artist1">
+            <div class="artist-img">
+                <img src="./your/r2.jpeg" alt="">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="artist-name"> 
+                
+                <p>With Deva, Swarnalatha,...</p>
+            </div>
+    </div>
+    <div class="artist1">
+        <div class="artist-img">
+            <img src="./your/r3.jpeg" alt="">
+            <div class="play">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="artist-name"> 
+            
+            <p>With Karan Aujla, Shubh, Sidhu Moose...</p>
+        </div>
+</div>
+<div class="artist1 hide3">
+    <div class="artist-img">
+        <img src="./your/r4.jpeg" alt="">
+        <div class="play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+    </div>
+    <div class="artist-name"> 
+       
+        <p>With K. J. Yesudas, Swarnalatha, Uma...</p>
+    </div>
+</div>
+<div class="artist1 hide2">
+<div class="artist-img">
+    <img src="./your/r5.jpeg" alt="">
+    <div class="play">
+        <i class="fa-solid fa-play"></i>
+    </div>
+</div>
+<div class="artist-name"> 
+    
+    <p>With A.R. Rahman, Vishal-Shekhar, Atif...</p>
+</div>
+</div>
+<div class="artist1 hide1">
+<div class="artist-img">
+<img src="./your/r6.jpeg" alt="">
+<div class="play">
+    <i class="fa-solid fa-play"></i>
+</div>
+</div>
+<div class="artist-name"> 
+
+<p>With Armaan Malik, Ankit Tiwari, Atif...</p>
+</div>
+</div>
+    </div>
+</div>
+
+  <!-- section  -->
+
+
+<div class="section-1">
+    <div class="heading">
+        <h2><a href="#">Featured Charts</a></h2>
+        <div class="show"><a href="#">Show all</a></div>
+    </div>
+    <div class="artists">
+        <div class="artist1">
+            <div class="artist-img">
+                <img src="./your/c1.jpg" alt="">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="artist-name"> 
+                
+                <p>Your weekly update of the most played...</p>
+            </div>
+    </div>
+    <div class="artist1">
+        <div class="artist-img">
+            <img src="./your/c2.jpg" alt="">
+            <div class="play">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="artist-name"> 
+           
+            <p>Your weekly update of the most played...</p>
+        </div>
+</div>
+<div class="artist1">
+    <div class="artist-img">
+        <img src="./your/c3.jpg" alt="">
+        <div class="play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+    </div>
+    <div class="artist-name"> 
+        
+        <p>Your daily update of the most played...</p>
+    </div>
+</div>
+<div class="artist1 hide3">
+<div class="artist-img">
+    <img src="./your/c4.jpg" alt="">
+    <div class="play">
+        <i class="fa-solid fa-play"></i>
+    </div>
+</div>
+<div class="artist-name"> 
+   
+    <p>Your daily update of the most played...</p>
+</div>
+</div>
+<div class="artist1 hide2">
+<div class="artist-img">
+<img src="./your/c5.jpg" alt="">
+<div class="play">
+    <i class="fa-solid fa-play"></i>
+</div>
+</div>
+<div class="artist-name"> 
+
+<p>Your daily update of the most viral tracks...</p>
+</div>
+</div>
+<div class="artist1 hide1">
+<div class="artist-img">
+<img src="./your/c6.jpg" alt="">
+<div class="play">
+<i class="fa-solid fa-play"></i>
+</div>
+</div>
+<div class="artist-name"> 
+
+<p>Your daily update of the most viral tracks...</p>
+</div>
+</div>
+</div>
+</div>
+
+
+  <!-- section  -->
+
+<div class="section-1">
+    <div class="heading">
+        <h2><a href="#">India's Best</a></h2>
+        <div class="show"><a href="#">Show all</a></div>
+    </div>
+    <div class="artists">
+        <div class="artist1">
+            <div class="artist-img">
+                <img src="./your/b1.jpeg" alt="">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="artist-name"> 
+                
+                <p>Hottest tracks from your favourite I-Pop...</p>
+            </div>
+    </div>
+    <div class="artist1">
+        <div class="artist-img">
+            <img src="./your/b2.jpeg" alt="">
+            <div class="play">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="artist-name"> 
+           
+            <p>Bollywood Central, jab baje toh seedha dil k...</p>
+        </div>
+</div>
+<div class="artist1">
+    
+    <div class="artist-img">
+        <img src="./your/b3.jpeg" alt="">
+        <div class="play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+    </div>
+    <div class="artist-name"> 
+        
+        <p>Ultimate 101 Punjabi
+            Hits with Karan Aujla</p>
+    </div>
+
+</div>
+<div class="artist1 hide3">
+<div class="artist-img">
+    <img src="./your/b4.jpeg" alt="">
+    <div class="play">
+        <i class="fa-solid fa-play"></i>
+    </div>
+</div>
+<div class="artist-name"> 
+   
+    <p>Finest collection of
+        Tamil Music from the...</p>
+</div>
+</div>
+<div class="artist1 hide2">
+<div class="artist-img">
+<img src="./your/b5.jpeg" alt="">
+<div class="play">
+    <i class="fa-solid fa-play"></i>
+</div>
+</div>
+<div class="artist-name"> 
+
+<p>The finest set of
+    Telugu music from th...</p>
+</div>
+</div>
+<div class="artist1 hide1">
+<div class="artist-img">
+<img src="./your/b6.jpeg" alt="">
+<div class="play">
+<i class="fa-solid fa-play"></i>
+</div>
+</div>
+<div class="artist-name"> 
+
+<p>Finest collection of
+    Tamil Music from the...</p>
+</div>
+</div>
+</div>
+</div>
+          <!-- section ends -->
+<footer>
+    <div class="footer-nav">
+       <div class="foot-container">
+        <div class="company">
+            <ul>
+                <p>Company</p>
+                <a href="#">About</a>
+                <a href="#">Jobs</a>
+                <a href="#">For the Record</a>
+            </ul>
+            
+        </div>
+        <div class="company">
+            <ul>
+                <p>Communities</p>
+                <a href="#">For Artists</a>
+                <a href="#">Developers</a>
+                <a href="#">Advertising</a>
+                <a href="#">Investors</a>
+                <a href="#">Vendors</a>
+            </ul>
+            
+        </div>
+        <div class="company">
+            <ul>
+                <p>Useful links</p>
+                <a href="#">Support</a>
+                <a href="#">Free Mobile App</a>
+              
+            </ul>
+            
+        </div>
+        <div class="company">
+            <ul>
+                <p>Spotify Plans</p>
+                <a href="#">Premium Individual</a>
+                <a href="#">Premium Duo</a>
+                <a href="#">Premium Family</a>
+                <a href="#">Premium Student</a>
+                <a href="#">Spotify Free</a>  
+            </ul>
+            
+        </div>
+        <div class="company">
+        <div class="icons">
+           
+                <div class="insta">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+         </div>
+       
+        </div>
+       
+        </div> 
+      <hr>
+      <p>© 2025 Spotify AB</p>
+    </div>
+    
+</footer>
+        <div class="Sign-up">
+            <div class="text-content">
+                <div class="bold">
+                <p>Preview of Spotify</p></div>
+                <div class="normal">
+                    <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                </div>
+            </div>
+        <button>Sign up for free</button>
+        </div>
+    </main>
+</body>
+</html>
