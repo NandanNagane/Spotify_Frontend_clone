@@ -15,8 +15,10 @@ This is a **frontend-only** clone of the **Spotify Web Player**, built using mod
 ## 📸 Screenshots
  <img width="1440" alt="Screenshot 2025-03-03 at 2 16 49 PM" src="https://github.com/user-attachments/assets/11963944-4493-443f-a8c7-13861d19e53a" />
 
-🤝 Contributing
+🤝 Contributing:
+
 Contributions are welcome! Feel free to submit a pull request.
 
-📄 License
+📄 License:
+
 This project is for educational purposes only and does not use Spotify’s official API. No copyright infringement intended.
